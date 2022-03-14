@@ -7,7 +7,7 @@ const Navbar = () => {
       <Link href="/">
         <a className={styles.home}>
           <DeviceThermostatIcon style={{ fontSize: 24 }} />
-          Temperature Prediction
+          Home | Weather Prediction
         </a>
       </Link>
     </div>
