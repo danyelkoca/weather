@@ -57,8 +57,8 @@ const Upload = () => {
                 landscape image, right on the browser!
               </p>
               <p>
-                Provided image will be handled on the browser and won't be saved
-                anywhere.
+                Provided image will be handled on the browser and will not be
+                saved anywhere.
               </p>
             </Grid>
             <Grid item xs={12} md={6}>
