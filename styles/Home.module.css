@@ -1,103 +1,86 @@
-@media (min-width: 900px) {
-.panel {
-    height: 100%;
-    width: 33.33333333vw;
-    position: relative;
-    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
-    overflow: hidden;
-}
+ .panel img {
+     display: block;
+ }
 
-.panel img {
-    /* object-fit: cover; */
-    width: 100vw;
-    height: 100%;
-    position: absolute;
-}
+ @media (min-width: 900px) {
+     .panel {
+         height: 100vh;
+         width: 33.33333333vw;
+         position: relative;
+         transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+         overflow: hidden;
+     }
 
-.left img {
-    left: 0;
-}
+     .panel img {
+         width: 100vw;
+         height: 100vh;
+         position: absolute;
+     }
 
-.mid img {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
-}
+     .left img {
+         left: 0;
+     }
 
-.right img {
-    right: 0;
-}
+     .mid img {
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%)
+     }
 
-.hoveredPanel {
-    overflow: visible !important;
-    z-index: 2 !important;
-}
-    .main {
-    flex-direction: row;
-}
+     .right img {
+         right: 0;
+     }
 
-}
+     .main {
+         flex-direction: row;
+     }
 
-@media (max-width: 900px) {
-    .main {
-    flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+ }
 
-.panel {
-    width: 100%;
-    height: 33.33333333%;
-        position: relative;
+ @media (max-width: 900px) {
+     .main {
+         flex-direction: column;
+         padding-top: 50px;
+         padding-bottom: 50px;
+     }
 
-}
+     .panel {
+         width: 100%;
+         height: 33.33333333%;
+         position: relative;
 
-.panel img {
-    object-fit: cover;
-    width: 100vw;
-    height: 100%;
-    position: relative;
-}
+     }
 
-.left img {
-    left: 0;
-}
+     .panel img {
+         object-fit: cover;
+         width: 100vw;
+         height: 100%;
+         position: relative;
+     }
+ }
 
-.mid img {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
-}
+ .hoveredPanel {
+     overflow: visible !important;
+     z-index: 2 !important;
+ }
 
-.right img {
-    right: 0;
-}
+ .main {
+     width: 100%;
+     height: 100%;
+     display: flex;
+ }
 
-.hoveredPanel {
-    overflow: visible !important;
-    z-index: 2 !important;
-}
-}
-.main {
-    width: 100%;
-    height: 100%;
-    display: flex;
-}
-
-
-
-
-.panel p {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.3);
-    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
-    color: rgb(18,18,18);
-    text-align: center;
-    padding: 10px 20px;
-    font-size: 36px;
-    cursor: pointer;
-}
+ .panel p {
+     position: absolute;
+     width: 100%;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color: rgba(255, 255, 255, 0.3);
+     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+     color: rgb(18, 18, 18);
+     text-align: center;
+     padding: 10px 20px;
+     font-size: 36px;
+     cursor: pointer;
+ }

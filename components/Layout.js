@@ -9,13 +9,13 @@ const Layout = ({ children }) => {
     <div
       style={{
         position: "relative",
-        height: "100vh",
+        minHeight: "100vh",
         width: "100vw",
       }}
     >
       <Meta />
       <Navbar />
-      <div style={{ width: "100vw", height: "100vh" }}>{children}</div>
+      <div style={{ width: "100vw", minHeight: "100vh" }}>{children}</div>
       <Footnote />
     </div>
   );
