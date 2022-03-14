@@ -18,7 +18,11 @@ export default function Home() {
             src="https://raw.githubusercontent.com/danyelkoca/weather_assets/main/selected_images/2022-03-04-16-46-50.png"
           ></img>
 
-          <a href="https://danyelkoca.github.io/home/" target="_blank">
+          <a
+            href="https://danyelkoca.github.io/home/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <p
               className={`${hover[0] ? styles.hoveredP : ""}`}
               onMouseEnter={() => setHover([true, false, false])}

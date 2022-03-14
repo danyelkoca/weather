@@ -34,7 +34,7 @@ const Timelapse = () => {
 
       update(date, actTemp, predTemp, index);
     });
-  }, [data]);
+  }, []);
   return (
     <>
       <div
