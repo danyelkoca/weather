@@ -3,6 +3,7 @@ import styles from "../styles/Upload.module.css";
 import * as tf from "@tensorflow/tfjs";
 import Grid from "@mui/material/Grid";
 import DeviceThermostatIcon from "@mui/icons-material/DeviceThermostat";
+import Typography from "@mui/material/Typography";
 
 const Upload = () => {
   const [selectedImage, setSelectedImage] = useState("./sample.jpg");
@@ -52,13 +53,17 @@ const Upload = () => {
                 borderBottom: "1px solid rgba(12,12,12,0.2)",
               }}
             >
+              <Typography variant="h4" style={{ marginBottom: "5px" }}>
+                Test the machine learning model with your own images
+              </Typography>
               <p style={{ marginBottom: "5px" }}>
-                Using the developed model, you can predict the temperature of a
-                landscape image, right on the browser!
+                You can predict the temperature of a landscape image (or any
+                image) using the trained machine learning model, right in your
+                browser!
               </p>
               <p>
-                Provided image will be handled on the browser and will not be
-                saved anywhere.
+                Your image is solely handled in your browser, and not saved
+                anywhere.
               </p>
             </Grid>
             <Grid item xs={12} md={6}>
