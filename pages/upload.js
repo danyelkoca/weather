@@ -37,6 +37,7 @@ const Upload = () => {
     <>
       <img
         className={styles.img}
+        alt="Rainbow bridge"
         src="https://raw.githubusercontent.com/danyelkoca/weather_assets/main/selected_images/2022-03-04-12-45-03.png"
       ></img>
       <div className={styles.container}>
@@ -71,7 +72,7 @@ const Upload = () => {
                 }}
               >
                 <img
-                  alt="not found"
+                  alt="Sample image"
                   className={styles.uploadedImage}
                   src={selectedImage}
                 />

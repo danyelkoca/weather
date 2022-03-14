@@ -13,7 +13,10 @@ export default function Home() {
             hover[0] ? styles.hoveredPanel : ""
           }`}
         >
-          <img src="https://raw.githubusercontent.com/danyelkoca/weather_assets/main/selected_images/2022-03-04-16-46-50.png"></img>
+          <img
+            alt="Rainbow bridge"
+            src="https://raw.githubusercontent.com/danyelkoca/weather_assets/main/selected_images/2022-03-04-16-46-50.png"
+          ></img>
 
           <a href="https://danyelkoca.github.io/home/" target="_blank">
             <p
@@ -30,7 +33,10 @@ export default function Home() {
             hover[1] ? styles.hoveredPanel : ""
           }`}
         >
-          <img src="https://raw.githubusercontent.com/danyelkoca/weather_assets/main/selected_images/2022-03-04-06-50-30.png"></img>
+          <img
+            alt="Rainbow bridge"
+            src="https://raw.githubusercontent.com/danyelkoca/weather_assets/main/selected_images/2022-03-04-06-50-30.png"
+          ></img>
           <Link href="/upload">
             <a>
               <p
@@ -48,7 +54,10 @@ export default function Home() {
             hover[2] ? styles.hoveredPanel : ""
           }`}
         >
-          <img src="https://raw.githubusercontent.com/danyelkoca/weather_assets/main/selected_images/2022-03-03-17-52-15.png"></img>
+          <img
+            alt="Rainbow bridge"
+            src="https://raw.githubusercontent.com/danyelkoca/weather_assets/main/selected_images/2022-03-03-17-52-15.png"
+          ></img>
           <Link href="/timelapse">
             <a>
               <p

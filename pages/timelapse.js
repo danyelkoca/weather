@@ -48,6 +48,7 @@ const Timelapse = () => {
         }}
       >
         <img
+          alt="Rainbow bridge"
           style={{
             objectFit: "cover",
             width: "100%",
