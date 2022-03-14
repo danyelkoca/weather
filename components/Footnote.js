@@ -13,12 +13,12 @@ const Footnote = () => {
         style={{
           color: "transparent",
           textShadow: "0 0 0 white",
-          marginLeft: 5,
-          marginRight: 5,
+          marginLeft: 10,
+          marginRight: 10,
         }}
       >
         ❤️
-      </span>{" "}
+      </span>
       in Tokyo
       <p
         style={{

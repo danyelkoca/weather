@@ -54,7 +54,7 @@ const Upload = () => {
               }}
             >
               <Typography variant="h4" style={{ marginBottom: "5px" }}>
-                Test the machine learning model with your own images
+                Test the machine learning model with your images
               </Typography>
               <p style={{ marginBottom: "5px" }}>
                 You can predict the temperature of a landscape image (or any
