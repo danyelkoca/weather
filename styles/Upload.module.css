@@ -1,0 +1,67 @@
+.button {
+    text-align: center;
+    background: rgb(18, 18, 18);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+        border-radius: 5px;
+
+}
+
+.img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+
+.uploadedImage {
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    display: block;
+    border-radius: 5px;
+
+}
+
+.container {
+    padding: 70px 40px;
+}
+
+.grid {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px 20px 0px 20px;
+    border-radius: 5px;
+}
+
+.thermostat {
+    animation: thermo 5s infinite;
+    animation-timing-function: linear;
+border-radius: 10px;
+
+}
+
+
+@keyframes thermo {
+    0% {
+        color: #b01111;
+    }
+
+    50% {
+        color: #62a1db;
+    }
+
+    100% {
+        color: #b01111;
+    }
+
+
+}
