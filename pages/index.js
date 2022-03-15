@@ -18,7 +18,7 @@ export default function Home() {
             src="https://raw.githubusercontent.com/danyelkoca/weather_assets/main/selected_images/2022-03-04-16-46-50.png"
           ></img>
           <a
-            href="https://danyelkoca.github.io/home/"
+            href="https://medium.com/@danyelkoca/predicting-atmospheric-temperature-using-landscape-images-5130495f80bf"
             target="_blank"
             rel="noreferrer"
           >
