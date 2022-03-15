@@ -52,7 +52,7 @@ const Timelapse = () => {
           style={{
             objectFit: "cover",
             width: "100%",
-            minHeight: "100%",
+            height: "100%",
           }}
           src={src}
         ></img>

@@ -4,6 +4,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import IconButton from "@mui/material/IconButton";
 import Link from "@mui/material/Link";
+import LanguageIcon from '@mui/icons-material/Language';
 
 const Footnote = () => {
   return (
@@ -31,6 +32,15 @@ const Footnote = () => {
       </p>
       <div style={{ display: "flex", flexDirection: "column" }}>
         <div style={{ textAlign: "center" }}>
+                    <Link
+            href="https://danyelkoca.github.io/home/"
+            target="_blank"
+            style={{ marginRight: 15 }}
+          >
+            <IconButton aria-label="Website" style={{ padding: 0 }}>
+              <LanguageIcon style={{ fill: "white" }} />
+            </IconButton>
+          </Link>
           <Link
             href="https://www.linkedin.com/in/danyelkoca"
             target="_blank"

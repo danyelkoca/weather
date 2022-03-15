@@ -48,16 +48,16 @@
          width: 100%;
          height: 33.33333333%;
          position: relative;
-
+         flex-grow: 1;
      }
 
      .panel img {
          object-fit: cover;
-         width: 100vw;
-         height: 100%;
-         position: relative;
+         width: 100%;
+         height: calc((100vh - 100px )/ 3)
      }
  }
+
 
  .hoveredPanel {
      overflow: visible !important;
@@ -65,10 +65,12 @@
  }
 
  .main {
+     display: flex;
      width: 100%;
      height: 100%;
-     display: flex;
+     min-height: 100vh;
  }
+
 
  .panel p {
      position: absolute;
