@@ -29,8 +29,8 @@ const Timelapse = () => {
     data_array.sort((a, b) => a - b);
     data_array.map(async (i, index) => {
       let date = data.time[i];
-      let actTemp = Number(data.trues[i]).toFixed(2);
-      let predTemp = Number(data.preds[i]).toFixed(2);
+      let actTemp = Number(data.trues[i]).toFixed(1);
+      let predTemp = Number(data.preds[i]).toFixed(1);
 
       update(date, actTemp, predTemp, index);
     });
@@ -69,7 +69,20 @@ const Timelapse = () => {
             borderRadius: "10px",
           }}
         >
-          {time}
+          <div
+            style={{
+              fontSize: 16,
+            }}
+          >
+            Time
+          </div>
+          <div
+            style={{
+              fontSize: 36,
+            }}
+          >
+            {time}
+          </div>
         </div>
         {/* </div> */}
       </div>
@@ -92,7 +105,9 @@ const Timelapse = () => {
               borderRadius: "10px",
             }}
           >
-            <div style={{ fontSize: 24, textAlign: "center" }}>Actual</div>
+            <div style={{ fontSize: 24, textAlign: "center" }}>
+              Actual Temperature (°C)
+            </div>
             <div style={{ fontSize: 72, textAlign: "center" }}>{actTemp}</div>
           </div>
           {/* </div> */}
@@ -115,9 +130,10 @@ const Timelapse = () => {
               borderRadius: "10px",
             }}
           >
-            {" "}
-            <div style={{ fontSize: 24, textAlign: "center" }}>Predicted</div>
-            <div style={{ fontSize: 72, textAlign: "center" }}>{predTemp}</div>
+            <div style={{ fontSize: 24, textAlign: "center" }}>
+              Predicted Temperature (°C)
+            </div>
+            <div style={{ textAlign: "center", fontSize: 72 }}>{predTemp} </div>
           </div>
           {/* </div> */}
         </Grid>
