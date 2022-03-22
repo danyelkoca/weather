@@ -9,30 +9,33 @@ import LanguageIcon from '@mui/icons-material/Language';
 const Footnote = () => {
   return (
     <div className={styles.footnote}>
-      Made with{" "}
-      <span
-        style={{
-          color: "transparent",
-          textShadow: "0 0 0 white",
-          marginLeft: 10,
-          marginRight: 10,
-        }}
-      >
-        ❤️
-      </span>
-      in Tokyo
+      <div>
+        Made with{" "}
+        <span
+          style={{
+            color: "transparent",
+            textShadow: "0 0 0 white",
+            marginLeft: 10,
+            marginRight: 10,
+          }}
+        >
+          ❤️
+        </span>
+        in Tokyo
+      </div>
       <p
         style={{
           margin: "0px 15px",
           fontWeight: "bold",
           color: "rgba(100,100,100,0.5)",
         }}
+        className={styles.breaker}
       >
-        |
+        
       </p>
       <div style={{ display: "flex", flexDirection: "column" }}>
         <div style={{ textAlign: "center" }}>
-                    <Link
+          <Link
             href="https://danyelkoca.github.io/home/"
             target="_blank"
             style={{ marginRight: 15 }}
